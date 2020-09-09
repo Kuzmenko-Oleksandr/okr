@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>writing-mode</title>
+  <style>
+   table { 
+    border-collapse: collapse; 
+    height: 350px; 
+    width: 300px;
+   }
+   table td { 
+    border: 1px solid #333;
+    padding: 5px; 
+   }
+  </style>
+ </head>
+ <body> 
+  <table cellspacing="0">
+   <tr>
+    <td style="writing-mode: lr-tb">Текст</td>
+    <td style="writing-mode: rl-tb">Текст</td>
+    <td style="writing-mode: tb-rl">Текст</td>
+    <td style="writing-mode: bt-rl">Текст</td>
+    <td style="writing-mode: tb-lr">Текст</td>
+    <td style="writing-mode: bt-lr">Текст</td>
+   </tr>
+   <tr>
+    <td>lr-tb</td>
+    <td>rl-tb</td>
+    <td>tb-rl</td>
+    <td>bt-rl</td>
+    <td>tb-lr</td>
+    <td>bt-lr</td>
+   </tr> 
+  </table>
+ </body>
+</html>
